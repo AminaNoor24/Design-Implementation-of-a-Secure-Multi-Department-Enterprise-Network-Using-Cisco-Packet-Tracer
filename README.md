@@ -7,17 +7,17 @@
 <h1>Network Architecture
 
 <br>
-  The network adopts a two-tier hierarchical design model, which provides a clear
+  <small>The network adopts a two-tier hierarchical design model, which provides a clear
 separation between routing and switching functions, simplifies troubleshooting, and supports
 future scalability. The two tiers are defined as follows:
 
-Core / Distribution Tier : Contains R1 (Cisco 2911) responsible for WAN connectivity,
+<small>Core / Distribution Tier : Contains R1 (Cisco 2911) responsible for WAN connectivity,
 server farm access, and OSPF routing; and MLS (Cisco 3650-24PS) responsible for VLAN
 switching, interVLAN routing via SVIs, DHCP services, and ACL enforcement.
 
-Access Tier : Contains five department access switches (Cisco 2960-24TT)
+<small>Access Tier : Contains five department access switches (Cisco 2960-24TT)
 and one server farm switch, each providing Layer 2 connectivity for end devices.
 
-External Infrastructure : Contains ISP-R simulating the internet service provider,
+<small>External Infrastructure : Contains ISP-R simulating the internet service provider,
 hosting public servers and routing HQ traffic; and HQ-R providing the branch office LAN
 gateway.
