@@ -1,10 +1,12 @@
 <h1>Network Topology
+<br>
   
 <img width="1216" height="714" alt="image" src="https://github.com/user-attachments/assets/1f647066-34f0-42aa-91a8-d90de372e7ec" />
 
 
 <h1>Network Architecture
 
+<br>
   The network adopts a two-tier hierarchical design model, which provides a clear
 separation between routing and switching functions, simplifies troubleshooting, and supports
 future scalability. The two tiers are defined as follows:
